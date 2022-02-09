@@ -1,0 +1,30 @@
+nav a {
+  transition: 0.3s ease;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  padding: 20px 0;
+  margin: 0 5px;
+  font-size: 17px;
+}
+ .nav-link:hover {
+    background:#11ADE8;
+    padding: 6px 0;
+}
+
+nav-link.active
+{
+    color: #11ADE8;
+    text-decoration: underline overline;
+    background-color: #11ADE8;
+}
+
+p.truncate-3l{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
