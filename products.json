@@ -1,0 +1,91 @@
+[{
+    "name": "Banana",
+    "price" :"$4,50kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "321,5kg in stock",
+    "picpath" : "/images/000001.jpg"
+
+},
+{
+    "name": "Pineaple",
+    "price" :"$13,85kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "854,5kg in stock",
+    "picpath" : "/images/00002.jpg"
+},
+{
+    "name": "Papaya",
+    "price" :"$11,85kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "842,5kg in stock",
+    "picpath" : "/images/00003.jpg"
+},
+{
+    "name": "Aplle",
+    "price" :"$2.99kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "105kg in stock",
+    "picpath" : "/images/00004.jpg"
+},
+{
+    "name": "Guava",
+    "price" :"$13,85kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "1054,2kg in stock",
+    "picpath" : "images/00005.jpg"
+},
+
+{
+    "name": "Orange",
+    "price" :"$4,55kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "854,5kg in stock",
+    "picpath" : "images/00006.jpg"
+},
+{
+    "name": "Avacato",
+    "price" :"$1,99 unt",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "2000 unts in stock",
+    "picpath" : "images/00007.jpg"
+},
+{
+    "name": "Avacato small",
+    "price" :"$1.55 unt",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "3000 unt in stock",
+    "picpath" : "images/00008.jpg"
+},
+
+{
+    "name": "Squash",
+    "price" :"$4,15kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "854,5kg in stock",
+    "picpath" : "images/00009.jpg"
+},
+{
+    "name": "Squash",
+    "price" :"$3,85kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "96,5kg in stock",
+    "picpath" : "images/00010.jpg"
+},
+{
+    "name": "Lettuce",
+    "price" :"$2.50 unt",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "2035 unts in stock",
+    "picpath" : "images/00011.jpg"
+},
+
+{
+    "name": "Galic",
+    "price" :"$0,99kg",
+    "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "stock" : "36,421kg in stock",
+    "picpath" : "images/00012.jpg"
+}
+
+
+]

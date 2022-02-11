@@ -8,18 +8,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Welcome to FreshFruit</title>
 </head>
 <!-- Minumium screen size -->
 
 <body style="min-width: 372px;">
-    <nav class="navbar navbar-light-hover-color navbar-expand-lg bg-dark border-bottom  mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm border-bottom mb-3">
         <div class="container">
             <a class="navbar-brand" href="#"><strong>FreshFruit</strong></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-tareget=".navbar-collapse">
+            
+            <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-tareget=".navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="navbar-collapse collapse ">
 
                 <ul class="navbar-nav flex-grow-1">
@@ -38,18 +41,22 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Login</a>
                         </li>
-                        <li class="nav-item">
                             <a class="nav-link text-white" href="#">
                                 <svg class="bi" width="24" height="24" fill="currentColor">
                                     <use xlink:href="/icons.svg#cart3" />
                                 </svg>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <div class="position-absolute align-items-lg-start text-danger">
+                                <h5 id="counter">0</h5>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> 
 
     <header class="container">
         <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
@@ -101,7 +108,7 @@
                 </div>
                 <div class="col-12 col-md-7">
                     <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                        <form action="" class="ml-3 d-inline-block">
+                        <form action="#!" class="ml-3 d-inline-block">
                             <select class=" form-select form-select-sm">
                                 <option>Order by name</option>
                                 <option>Order by Price&#8593;</option>
@@ -139,7 +146,7 @@
             <div class="row">
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -153,8 +160,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -165,7 +172,7 @@
 
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -179,8 +186,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -190,7 +197,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -204,8 +211,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -215,7 +222,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -229,8 +236,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -240,7 +247,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -254,8 +261,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -265,7 +272,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -279,8 +286,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -290,7 +297,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -304,8 +311,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -315,7 +322,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -329,8 +336,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -340,7 +347,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -354,8 +361,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -365,7 +372,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -379,8 +386,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -390,7 +397,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -404,8 +411,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -415,7 +422,7 @@
                 </div>
                 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 d-flex align-items-stretch">
                     <div class="car text-center bg-light">
-                        <a href="" class="position-absolute right-2 p-2 text-danger">
+                        <a href="#!" class="position-absolute right-2 p-2 text-danger">
                             <svg class="bi" width="24" height="24" fill="currentColor">
                                 <use xlink:href="/icons.svg#suit-heart"></use>
                             </svg>
@@ -429,8 +436,8 @@
                             <p class="card-text truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                         <div class="card-footer">
-                            <form action="" class="d-block">
-                                <button class="btn btn-danger">Add
+                            <form action="#!" class="d-block">
+                                <button class="btn btn-danger" id="add">Add
 
                                 </button>
                             </form>
@@ -444,18 +451,20 @@
             </div>
         </div>
         <hr class="mt-3">
+
+        <!-- Bottom Navigation -->
         <div class="row pb-4">
             <div class="col-12">
                 <div class="col-12 col-md-7">
                     <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
-                        <form action="" class="ml-3 d-inline-block">
+                        <form action="#!" class="ml-3 d-inline-block">
                             <select class=" form-select form-select-sm">
                                 <option>Order by name</option>
                                 <option>Order by Price&#8593;</option>
                                 <option>Order by price&#8595;</option>
                             </select>
                         </form>
-                        <!-- Bottom Navigation -->
+                        
                         <nav class="d-lg-inline-block">
                             <ul class="pagination pagination-sm my-0">
                                 <li class="page-item disabled">
@@ -486,11 +495,15 @@
 
     </main>
 
+    <div style="height: 273px" class="d-block d-md-none"></div>
+    <div style="height: 153px;" class="d-none d-mb-block d-lg-none"></div>
+    <div style="height: 129px" class="d-none d-lg-block"></div> 
+
     <footer class="border-top fixed-bottom text-muted bg-gradient bg-black">
         <div class="cotainer">
             <div class="row py-3">
                 <div class="col-12 col-md-4 text-center text-md-left">
-                    &copy;Copyrights 2022 - FreshFruit
+                    &copy;Copyrights 2022 - FreshFruit<br>
                 </div>
 
                 <div class="col-12 col-md-4 text-center">
@@ -504,6 +517,7 @@
         </div>
 
     </footer>
+    <script src="/script.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
